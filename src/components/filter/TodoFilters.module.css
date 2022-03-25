@@ -1,0 +1,53 @@
+.filters input,
+.filters select {
+    padding: 4px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.filter {
+    display: inline;
+    margin: 3px;
+}
+
+.filter button {
+    background-color: #fdbca4;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.filter button:hover {
+    background-color: #f35514;
+}
+
+.activeFilters {
+    padding: 5px;
+    min-height: 2rem;
+}
+
+@media screen and (max-width: 615px) {
+    .filter {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .filter input, .filter select {
+        width: 9rem;
+    }
+
+    .reset {
+        display: block;
+        text-align: right;
+    }
+
+    .filterInputs {
+        width: 210px;
+        margin: 0 auto;
+        text-align: left;
+    }
+}

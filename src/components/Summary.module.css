@@ -1,0 +1,10 @@
+.summary {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: #f9fdd7;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 2px #8a8f6e;
+    padding: 5px;
+    height: auto;
+}

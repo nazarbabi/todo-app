@@ -1,0 +1,46 @@
+.item {
+    margin: 1rem 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #f7f5ef;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    min-width: 150px;
+    text-align: start;
+}
+
+.item span {
+    padding: 0 1rem;
+}
+
+.item button {
+    background: rgba(255, 77, 12, 0.69);
+    border-radius: 10px;
+    border: none;
+}
+
+.item.done {
+    background-color: #9cb64e;
+}
+
+.item input[type=checkbox] {
+    width: 23px;
+    height: 23px;
+}
+
+.actions {
+    min-width: 160px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 615px) {
+    .item {
+        display: block;
+    }
+
+    .actions {
+        justify-content: flex-end;
+    }
+}

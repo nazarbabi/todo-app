@@ -1,0 +1,22 @@
+.itemText {
+    background: #f3ece7;
+    box-shadow: -2px 0 1px 2px #c4c1c1;
+    border-radius: 9px;
+    margin: 2px 4px;
+    padding: 3px 0 3px 3px;
+}
+
+.close {
+    padding: 3px;
+    width: 50px;
+    margin-left: 3px;
+    background: #fdbca4;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: -1px 0 1px 2px #c4c1c1;
+}
+
+.close:hover {
+    background: #f35514;
+}
