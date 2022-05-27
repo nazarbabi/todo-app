@@ -1,0 +1,16 @@
+.navigation {
+    position: static;
+    height: 3rem;
+    margin: 0 auto;
+    min-width: 100%;
+    background: #8a8a8a;
+    text-align: end;
+}
+
+.navigation a {
+    display: inline-block;
+    text-decoration: none;
+    color: #f9fdd7;
+    margin: 1rem;
+}
+

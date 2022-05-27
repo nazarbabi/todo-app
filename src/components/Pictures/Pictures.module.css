@@ -1,0 +1,42 @@
+.generateForm {
+    padding: 1rem;
+    text-align: center;
+}
+
+.generateForm input {
+    padding: 1px;
+    height: 30px;
+    border: none;
+    background: #c9d5a5;
+    box-sizing: border-box;
+    border-radius: 7px 0 0 7px;
+    min-width: 4rem;
+}
+
+.generateForm button {
+    padding: 1px 5px;
+    background: #9cb64e;
+    border: none;
+    height: 30px;
+    border-radius: 0 7px 7px 0;
+}
+
+.group {
+    box-shadow: 0 0 5px 3px #606060;
+    display: inline-block;
+    border-radius: 7px;
+    height: 30px;
+    border: none;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .content {
+        text-align: center;
+    }
+}

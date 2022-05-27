@@ -1,7 +1,7 @@
 import NewTodo from "./NewTodo";
 import TodoList from "./TodoList";
 import {useContext} from "react";
-import {TodoContext} from "../store/TodoContextProvider";
+import {TodoContext} from "../../store/TodoContextProvider";
 import Summary from "./Summary";
 import classes from './Todos.module.css'
 

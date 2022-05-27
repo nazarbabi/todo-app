@@ -1,5 +1,5 @@
 import {useContext} from "react";
-import {TodoContext} from "../store/TodoContextProvider";
+import {TodoContext} from "../../store/TodoContextProvider";
 import classes from './Summary.module.css';
 
 const Summary = () => {

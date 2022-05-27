@@ -1,5 +1,5 @@
 import React, {useContext, useState} from "react";
-import {TodoContext} from "../store/TodoContextProvider";
+import {TodoContext} from "../../store/TodoContextProvider";
 import classes from './TodoItem.module.css';
 
 export type TodoType = { id: string, text: string, date: string, status: string };

@@ -1,5 +1,5 @@
 import React, {FC, useEffect, useState} from "react";
-import {TodoType} from "../components/TodoItem";
+import {TodoType} from "../components/Todo/TodoItem";
 
 const defaultValue = {
   items: [],

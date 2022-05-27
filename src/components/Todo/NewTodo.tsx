@@ -1,5 +1,5 @@
 import React, {useContext, useRef} from "react";
-import {TodoContext} from "../store/TodoContextProvider";
+import {TodoContext} from "../../store/TodoContextProvider";
 import {TodoType} from "./TodoItem";
 import classes from './NewTodo.module.css';
 
